@@ -9649,8 +9649,68 @@
                 },
                 {
                     "name": "uqm-megamod",
-                    "url": "https://github.com/luxtorpeda-dev/packages/releases/download/uqm-megamod/",
+                    "url": "https://github.com/8f00ff/packages/releases/download/uqm-megamod-test/",
                     "file": "uqm-megamod-2645580.tar.xz"
+                },
+                {
+                    "name": "mm-0.8.3-content",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-0.8.3-content.uqm"
+                },
+                {
+                    "name": "uqm-0.8.0-3DOMusicRemastered",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "uqm-0.8.0-3DOMusicRemastered.uqm"
+                },
+                {
+                    "name": "uqm-0.8.0-3dovideo",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "uqm-0.8.0-3dovideo.uqm"
+                },
+                {
+                    "name": "mm-vols-space",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-vols-space.uqm"
+                },
+                {
+                    "name": "mm-rmx-utwig",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-rmx-utwig.uqm"
+                },
+                {
+                    "name": "mm-0.8.3-3dovoice",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-0.8.3-3dovoice.uqm"
+                },
+                {
+                    "name": "mm-remix-timing",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-remix-timing.uqm"
+                },
+                {
+                    "name": "mm-0.8.3-3domode",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-0.8.3-3domode.uqm"
+                },
+                {
+                    "name": "mm-0.8.3-volasaurus-remix-pack",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-0.8.3-volasaurus-remix-pack.uqm"
+                },
+                {
+                    "name": "mm-0.8.3-hd-content",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-0.8.3-hd-content.uqm"
+                },
+                {
+                    "name": "mm-0.8.3-hd-classic-pack",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-0.8.3-hd-classic-pack.uqm"
+                },
+                {
+                    "name": "mm-0.8.3-dosmode",
+                    "url": "https://gigenet.dl.sourceforge.net/project/uqm-mods/MegaMod/0.8.3/Content/",
+                    "file": "mm-0.8.3-dosmode.uqm"
                 }
             ],
             "choices": [
@@ -9667,7 +9727,69 @@
                     "engine_name": "The Ur-Quan Masters HD MEGAMOD",
                     "command": "./uqm-megamod.sh",
                     "download": [
-                        "uqm-megamod"
+                        "uqm-megamod",
+                        "mm-0.8.3-content",
+                        "uqm-0.8.0-3DOMusicRemastered",
+                        "uqm-0.8.0-3dovideo",
+                        "mm-vols-space",
+                        "mm-rmx-utwig",
+                        "mm-0.8.3-3dovoice",
+                        "mm-remix-timing",
+                        "mm-0.8.3-3domode",
+                        "mm-0.8.3-volasaurus-remix-pack",
+                        "mm-0.8.3-hd-content",
+                        "mm-0.8.3-hd-classic-pack",
+                        "mm-0.8.3-dosmode"
+                    ],
+                    "download_config": [
+                        {
+                            "extract_location": "./megamod/content/packages/mm-0.8.3-content",
+                            "download_name": "mm-0.8.3-content"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/uqm-0.8.0-3DOMusicRemastered",
+                            "download_name": "uqm-0.8.0-3DOMusicRemastered"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/uqm-0.8.0-3dovideo",
+                            "download_name": "uqm-0.8.0-3dovideo"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-vols-space",
+                            "download_name": "mm-vols-space"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-rmx-utwig",
+                            "download_name": "mm-rmx-utwig"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-0.8.3-3dovoice",
+                            "download_name": "mm-0.8.3-3dovoice"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-remix-timing",
+                            "download_name": "mm-remix-timing"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-0.8.3-3domode",
+                            "download_name": "mm-0.8.3-3domode"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-0.8.3-volasaurus-remix-pack",
+                            "download_name": "mm-0.8.3-volasaurus-remix-pack"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-0.8.3-hd-content",
+                            "download_name": "mm-0.8.3-hd-content"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-0.8.3-hd-classic-pack",
+                            "download_name": "mm-0.8.3-hd-classic-pack"
+                        },
+                        {
+                            "extract_location": "./megamod/content/addons/mm-0.8.3-dosmode",
+                            "download_name": "mm-0.8.3-dosmode"
+                        }
                     ]
                 }
             ],
